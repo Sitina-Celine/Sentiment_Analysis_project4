@@ -53,7 +53,7 @@ To develop an NLP-based sentiment analysis model that automatically classifies t
 ### Success Criteria
 Model Performance: Achieve at least 85% classification accuracy and a macro F1-score ≥ 0.80 across all sentiment classes (positive, negative, neutral).
 
-Model Interpretability: Clearly explain which features (words, hashtags, expressions) most affect sentiment predictions using tools such as LIME or SHAP.
+Model Interpretability: Clearly explain which features (words, hashtags, expressions) most affect sentiment predictions.
 
 Business Value: Provide insights that help Apple and Google understand customer sentiment, identify common issues, and track brand reputation effectively
 
@@ -63,14 +63,14 @@ Business Value: Provide insights that help Apple and Google understand customer 
 ### Data overview
 The dataset contains 9,093 tweets collected from crowdFlower, with the goal of identifying whether the emotion in a tweet is directed at a brand or product, and if so, what sentiment it carries. It includes 3 columns,
 - tweet_text:  The raw text of the tweet, expressing user opinions or emotions.
-- emotion_in_tweet_is_directed_at: The specific brand or product the emotion is directed at (if identified)
+- emotion_in_tweet_is_directed_at: The specific brand or product the emotion is directed at.
 - is_there_an_emotion_directed_at_a_brand_or_product: Indicates whether the tweet expresses emotion toward a brand/product
 
 
 ### data characteristics
 - Number of rows: 9,093
 - Number of columns: 3
-- Data types: All columns are of type object (textual).
+- Data types: All columns are of type object.
 - Target variable: is_there_an_emotion_directed_at_a_brand_or_product.
 - Feature variable: tweet_text.
 - Filtering scope: Tweets directed at Apple or Google will be selected for analysis.
