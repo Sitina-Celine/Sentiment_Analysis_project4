@@ -1,5 +1,12 @@
 # Aspect-Based Sentiment Analysis of Tweets Directed at Brands and Products using Natural Language Processing.
 
+### Team Members
+- Celine Sitina
+- Gabriel Tenesi
+- Wesley Kipsang
+- Sharon Wathiri
+
+  
 ## Business Understanding 
 ### Business Overview
 Social media platforms like Twitter are where people openly share their thoughts, complaints, and praise about products and brands. These conversations show how customers truly feel and what matters to them. For big companies like Apple and Google, understanding this feedback is key to improving products and maintaining a strong brand image.
